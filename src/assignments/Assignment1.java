@@ -14,8 +14,8 @@ public class Assignment1 {
 		String BookTitle = "To Kill a Mockingbird";
 		String TimeOfEvent = "2:30 PM";
 		String EyeColor = "Brown";
-		
-		//Array DataType
+
+		// Array DataType
 		String[] Address = new String[2];
 		Address[0] = "United States";
 		Address[1] = "New York City";
@@ -25,6 +25,10 @@ public class Assignment1 {
 		float BankBalance = 1000.50f;
 		float MovieRating = 7.5f;
 		float DistanceOfTwoCities = 200.5f;
+
+		// Double DataType
+		double latitude = 37.7749;
+		double longitude = -122.4194;
 
 		// Boolean DataType
 		boolean OrderPlaced = true;
@@ -46,7 +50,7 @@ public class Assignment1 {
 		System.out.println("3. Person's phone number: " + "\"" + PhoneNumber + "\"");
 		System.out.printf("4. Amount of money in a customer's bank account: %.2f%n", BankBalance);
 		System.out.println("5. Person's email address: " + "\"" + EmailAddress + "\"");
-		System.out.printf("6. Coordinates of a location (latitude, longitude): %.4f,%.4f%n", 37.7749, -122.4194);
+		System.out.printf("6. Coordinates of a location (latitude, longitude): %.4f,%.4f%n", latitude, longitude);
 		System.out.println("7. Person's marital status: " + MaritalStatus);
 		System.out.println("8. Person's occupation: " + "\"" + Occupation + "\"");
 		System.out.println("9. Person's favourite colour: " + "\"" + FavColor + "\"");
