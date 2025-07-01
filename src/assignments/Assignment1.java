@@ -1,6 +1,5 @@
 package assignments;
 
-import java.text.NumberFormat;
 import java.time.Year;
 
 public class Assignment1 {
@@ -14,6 +13,8 @@ public class Assignment1 {
 		String BookTitle = "To Kill a Mockingbird";
 		String TimeOfEvent = "2:30 PM";
 		String EyeColor = "Brown";
+		String PhoneNumber = "123-456-7890";
+		String Followers = "1,000,000";
 
 		// Array DataType
 		String[] Address = new String[2];
@@ -38,10 +39,6 @@ public class Assignment1 {
 		int CurrentYear = Year.now().getValue();
 		int NoOfEmployees = 500;
 
-		// Long DataType
-		long PhoneNumber = 1234567890;
-		long Followers = 1000000L;
-
 		// Character DataType
 		char BloodGroup = 'A';
 
@@ -55,11 +52,7 @@ public class Assignment1 {
 		System.out.println("8. Person's occupation: " + "\"" + Occupation + "\"");
 		System.out.println("9. Person's favourite colour: " + "\"" + FavColor + "\"");
 		System.out.println("10. Current year: " + CurrentYear);
-
-		// Used NumberFormat object to format the 1000000 to 1,000,000
-		NumberFormat formatter = NumberFormat.getInstance();
-		System.out.println("11. Number of followers on a social media platform: " + formatter.format(Followers));
-
+		System.out.println("11. Number of followers on a social media platform: " + Followers);
 		System.out.println("12.Rating of a movie: " + MovieRating);
 		System.out.println("13.Person's blood type: " + "\'" + BloodGroup + "\'");
 		System.out.println("14.Title of a book: " + "\"" + BookTitle + "\"");
